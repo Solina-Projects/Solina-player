@@ -191,11 +191,7 @@ This fork is not published on F-Droid.
 
 ### Alpha builds
 
-Every merge into `main` automatically publishes a pre-release tagged like `v1.0.0-alpha.N` on the [releases page](https://github.com/Solina-Projects/Solina-player/releases). These are cutting-edge builds for testing new changes before they reach a stable release — expect rough edges.
-
-To install one, download the arm64-v8a APK for your device from the release assets and sideload it.
-
-Alpha builds are signed with a dedicated CI key, so they update over each other, but switching between alpha and a stable install requires an uninstall/reinstall. In Obtainium, enable "Include prereleases" to get alphas automatically.
+Automatic alpha publishing is currently disabled: merges into `main` no longer publish a pre-release. Stable releases are published manually on the [releases page](https://github.com/Solina-Projects/Solina-player/releases) — install only those.
 
 ## Project Structure
 
